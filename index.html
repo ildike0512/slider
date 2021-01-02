@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tigers Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="slider-container">
+ 
+    <div class="pictures">
+        <img src="./img/angry tiger.jpg" alt="Mérges Tigris">
+    <div class="text">Angry Tiger</div>
+    </div>
+
+    <div class="pictures">
+        <img src="./img/tiger and her kid.jpg" alt="Egy tigris és a kölyke">
+        <div class="text">Tigers</div>
+    </div>
+
+    <div class="pictures">
+        <div class="numbertext">3 / 3</div>
+        <img src="./img/tiger and snow.jpg" alt="Szibériai tigris">
+        <div class="text">Winter</div>
+    </div>
+
+    <a class="prev" onclick = "prevSlide()">&#10094;</a>
+
+    <a class="next" onclick = "nextSlide()">&#10095;</a>
+</div>
+
+<div class="dots">
+    <span class="dot" onclick="slide(1)"></span>
+    <span class="dot" onclick="slide(2)"></span>
+    <span class="dot" onclick="slide(3)"></span>
+</div>
+
+
+     
+    
+    
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
